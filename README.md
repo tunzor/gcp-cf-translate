@@ -14,7 +14,7 @@ It's designed to run as a [cloud function](https://cloud.google.com/functions/) 
 The `gcloud functions deploy` command above will return the HTTP endpoint, among other things, and will look similar to:
 `https://[REGION]-[YOUR_PROJECT_ID].cloudfunctions.net/translator`
 
-Two parameters are required: `toLang` (the language to translate the text to) and `text` (the text to translate)
+Two parameters are required: `toLang` (the language to translate the text to) and `text` (the text to translate)  
 *A list of supported language codes is [here](https://cloud.google.com/translate/docs/languages)*
 
 For example, this will translate `hello world` to Spanish:
